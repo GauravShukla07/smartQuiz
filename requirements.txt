@@ -34,5 +34,8 @@ wasabi
 Werkzeug
 zipp
 
+
+python -m spacy download en_core_web_md
+python -m spacy download en_core_web_sm
 nltk.download("stopwords")
 nltk.download("punkt")

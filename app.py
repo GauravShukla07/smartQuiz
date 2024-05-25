@@ -13,7 +13,7 @@ app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 
-@ app.route('/')
+@ app.route('/') 
 def index():
     """ The landing page for the app """
     return render_template('index.html')
